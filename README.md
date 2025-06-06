@@ -2,6 +2,11 @@
 
 A take-home mobile app project that interacts with a mock API server. Built with SwiftUI, this app demonstrates login authentication, fetching and displaying posts, user and comment information, as well as local data handling and error resilience.
 
+### Prerequisites
+
+- Node.js (version 14 or later)  
+- npm (Node package manager)  
+
 
 ## 🚀 Features
 
@@ -25,10 +30,18 @@ A take-home mobile app project that interacts with a mock API server. Built with
 
 ## 📱 How to Run
 
-1. Clone the repo  
-2. Install and start the mock API server (see below)  
-3. Open the `.xcodeproj` or `.xcworkspace` file in Xcode  
-4. Build and run on iOS Simulator or physical device (iOS 16+)
+1. Clone the repo using this command
+   ```bash
+   git clone --recurse-submodules https://github.com/SophiaCG/Empyrean-THP-Submission.git
+   ```
+3. Install and start the mock API server using the following commands
+```bash
+ npm install
+ npm start
+ ```
+
+5. Open the `.xcodeproj` or `.xcworkspace` file in Xcode  
+6. Build and run on iOS Simulator or physical device (iOS 16+)
 
 ## ✅ Login Credentials
 
@@ -38,25 +51,6 @@ Use these credentials to log in:
 username: test
 password: password123
 ```
-
-
-## 🖥️ How to Run the Mock API Server
-
-This project uses a mock API server to simulate backend functionality including authentication, fetching posts, users, and comments.
-
-### Prerequisites
-
-- Node.js (version 14 or later)  
-- npm (Node package manager)  
-
-### Installation
-
- Navigate to the folder called MockServer within the project submission folder in your terminal, then run:
-
- ```bash
- npm install
- npm start
- ```
 
 ## ⚖️ Assumptions & Tradeoffs
 - The app assumes a stable internet connection except when chaos mode simulates errors
