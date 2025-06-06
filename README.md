@@ -31,14 +31,14 @@ A take-home mobile app project that interacts with a mock API server. Built with
 ## 📱 How to Run
 
 1. Clone the repo using this command
-   ```bash
-   git clone --recurse-submodules https://github.com/SophiaCG/Empyrean-THP-Submission.git
-   ```
+```bash
+git clone --recurse-submodules https://github.com/SophiaCG/Empyrean-THP-Submission.git
+```
 3. Install and start the mock API server using the following commands
 ```bash
- npm install
- npm start
- ```
+npm install
+npm start
+```
 
 5. Open the `.xcodeproj` or `.xcworkspace` file in Xcode  
 6. Build and run on iOS Simulator or physical device (iOS 16+)
